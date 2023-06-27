@@ -93,19 +93,19 @@
 	opacity: .5;
 }
 .backgroundLocation {
-	background: url('../img/2.jpg');
+	background: url('../img/2.JPG');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 .backgroundLocation1 {
-	background: url('../img/7.jpg');
+	background: url('../img/7.JPG');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 .backgroundLocation2 {
-	background: url('../img/8.jpg');
+	background: url('../img/8.JPG');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
