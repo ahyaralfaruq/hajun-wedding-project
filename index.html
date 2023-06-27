@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fadhli & Indah Wedding</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+</head>
+<body>
+
+	<main id="main">
+
+		<div class="position-fixed" style="bottom: 0; right: 0; z-index: 90; cursor: pointer;">
+			<div class="d-inline-block" id="onoff">
+				<span class="button-audio rounded-circle bg-gray px-3 py-3 mr-3 mb-3">
+					<i class="fas fa-play fs-base text-white"></i>
+				</span>
+				<span class="button-audio active rounded-circle bg-gray px-3 py-3 mr-3 mb-3">
+					<i class="fas fa-pause fs-base text-white"></i>
+				</span>
+			</div>
+		</div>
+
+		<section id="modalSection">
+			<div class="firstModal active backgroundLocation position-fixed">
+				<div class="d-flex flex-column-reverse align-items-center w-100 h-100">
+					<div class="waypoints w-100 text-center" data-effect="fadeInLeft">
+						<h3 class="myfont-gv font-weight-bolder fs-hajun text-white">Fadhli & Indah</h3>
+						<p class="fs-base font-weight-normal mb-2 text-white">Turut mengundang Bapak/Ibu/Saudara/i :</p>
+						<p class="fs-title font-weight-bold mb-4 text-white">Muhammad Ahyar</p>
+
+						<div class="d-flex justify-content-center align-items-center" style="cursor: pointer;">
+							<div id="openLetter" class="rounded bg-white px-4 py-2 border-0 text-dark font-weight-bold fs-base">
+								Buka Undangan
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="firstBackground">
+			<div class="myBackground w-100 px-4 py-4">
+				<div class="d-flex flex-column-reverse align-items-center w-100 h-100">
+					<div class="waypoints w-100 text-center" data-effect="fadeInLeft">
+						<p class="myfont-p fs-base font-weight-bold mb-0">WEDDING ANNOUNCEMENT</p>
+						<h3 class="myfont-gv font-weight-bolder fs-hajun">Fadhli & Indah</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="countdownSection">
+			<div class="countdownBackground w-100 px-4 py-4">
+				<h4 class="waypoints fs-title font-weight-bold myfont-p text-center mb-3" data-effect="fadeInDown">Menuju Hari Bahagia</h4>
+				<p class="waypoints fs-base font-weight-normal myfont-k mb-5 text-center" data-effect="fadeInDown">
+					Kami begitu antusias untuk menyambut hari bahagia pernikahan.
+					Ini adalah awal perjalanan kami untuk mewujudkan mimpi berdua.
+				</p>
+				
+				<div class="row mx-0">
+					<div class="col-3 col-sm-3">
+						<div class="waypoints d-flex flex-column align-items-center" data-effect="fadeInLeft">
+							<h4 id="days" class="mb-2 fs-hajun font-weight-bold myfont-gv">00</h4>
+							<p class="mb-1 fs-base font-weight-bold myfont-p">Days</p>
+						</div>
+					</div>
+					<div class="col-3 col-sm-3">
+						<div class="waypoints d-flex flex-column align-items-center" data-effect="fadeInLeft">
+							<h4 id="hours" class="mb-2 fs-hajun font-weight-bold myfont-gv">00</h4>
+							<p class="mb-1 fs-base font-weight-bold myfont-p">Hours</p>
+						</div>
+					</div>
+					<div class="col-3 col-sm-3">
+						<div class="waypoints d-flex flex-column align-items-center" data-effect="fadeInLeft">
+							<h4 id="minutes" class="mb-2 fs-hajun font-weight-bold myfont-gv">00</h4>
+							<p class="mb-1 fs-base font-weight-bold myfont-p">Minutes</p>
+						</div>
+					</div>
+					<div class="col-3 col-sm-3">
+						<div class="waypoints d-flex flex-column align-items-center" data-effect="fadeInLeft">
+							<h4 id="seconds" class="mb-2 fs-hajun font-weight-bold myfont-gv">00</h4>
+							<p class="mb-1 fs-base font-weight-bold myfont-p">Seconds</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="quotesSection">
+			<div class="countdownBackground w-100 px-4 py-4">
+				<div class="waypoints" data-effect="fadeInDown">
+					<p class="fs-base font-weight-normal myfont-k mb-3 text-center font-italic">
+						"Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri,
+						agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang.
+						Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir".
+					</p>
+					
+					<p class="fs-base font-italic font-weight-bold myfont-p text-center mb-0">(QS. Ar Rum ayat 21)</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="groombrideSection">
+			<div class="w-100 px-4 py-4">
+				<h4 class="waypoints fs-title font-weight-bold myfont-p text-center mb-3" data-effect="fadeInDown">
+					Calon Mempelai
+				</h4>
+				<p class="waypoints fs-base font-weight-normal myfont-k mb-5 text-center font-italic" data-effect="fadeInDown">
+					Dengan memohon Rahmat dan Ridha Allah SWT.
+					Kami bermaksud menyelenggarakan Akad & Resepsi Pernikahan putra putri kami
+				</p>
+				
+				<div class="row mx-0">
+					<div class="col-12 col-sm-12">
+						<div class="d-flex flex-column align-items-center py-5 mb-4">
+							<div class="waypoints images-wrapper position-relative mb-5"  data-effect="fadeInLeft">
+								<div class="position-absolute inset-0 w-100 h-100 overflow-hidden rounded-circle">
+									<img src="img/groom.JPG" alt="gambar" class="w-100 h-100 object-cover">
+								</div>
+							</div>
+
+							<div class="w-100">
+								<h4 class="waypoints fs-nama font-weight-bold myfont-gv text-center mb-4" data-effect="fadeInLeft">
+									Azzukhrufi Fadhli Zaini
+								</h4>
+								<p class="waypoints fs-base font-weight-bold mb-3 text-center" data-effect="fadeInLeft">
+									Putra dari
+								</p>
+								<p class="waypoints fs-base font-weight-bold mb-3 text-center" data-effect="fadeInLeft">
+									Bpk. Mohammad Zaini (Alm) & Ibu Azizah Herma Yuliansyah
+								</p>
+
+								<div class="pb-5 mb-5"></div>
+
+								<div class="waypoints d-flex justify-content-center align-items-center" data-effect="fadeInLeft">
+									<a href="https://instagram.com/fadhli.zaini" target="_blank" class="rounded-circle bg-gray px-2 py-2 d-flex">
+										<i class="fab fa-instagram fs-title my-auto text-white"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-sm-12">
+						<div class="d-flex flex-column align-items-center py-5 mb-4">
+							<div class="waypoints images-wrapper position-relative mb-5"  data-effect="fadeInLeft">
+								<div class="position-absolute inset-0 w-100 h-100 overflow-hidden rounded-circle">
+									<img src="img/bride.JPG" alt="gambar" class="w-100 h-100 object-cover">
+								</div>
+							</div>
+
+							<div class="w-100">
+								<h4 class="waypoints fs-nama font-weight-bold myfont-gv text-center mb-4" data-effect="fadeInLeft">
+									Indah Lestari
+								</h4>
+								<p class="waypoints fs-base font-weight-bold mb-3 text-center" data-effect="fadeInLeft">
+									Putri dari
+								</p>
+								<p class="waypoints fs-base font-weight-bold mb-3 text-center" data-effect="fadeInLeft">
+									Bpk. Pardi & Ibu Hartatik
+								</p>
+
+								<div class="pb-5 mb-5"></div>
+
+								<div class="waypoints d-flex justify-content-center align-items-center" data-effect="fadeInLeft">
+									<a href="https://instagram.com/fadhli.zaini" target="_blank" class="rounded-circle bg-gray px-2 py-2 d-flex">
+										<i class="fab fa-instagram fs-title my-auto text-white"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section id="locationSection">
+			<div class="backgroundLocation w-100 px-4 py-4">
+				<h4 class="waypoints fs-title font-weight-bold myfont-p text-center mb-3 text-white" data-effect="fadeInDown">
+					Pelaksanaan Acara
+				</h4>
+				<p class="waypoints fs-base font-weight-normal myfont-k mb-5 text-center text-white" data-effect="fadeInDown">
+					Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir
+					untuk memberikan do'a restu kepada kedua mempelai
+				</p>
+				
+				<div class="row mx-0">
+					<div class="col-12 col-sm-12 px-0">
+						<div class="wrapping-overlay py-5 px-3 mb-4 rounded">
+							<div class="backgroundLocation1 position-relative d-flex flex-column align-items-center px-3 py-4">
+								<div class="backgroundOverlay position-absolute w-100 h-100 inset-0"></div>
+
+								<div class="waypoints d-flex align-items-center justify-content-center pb-4 my-4"  data-effect="fadeInLeft">
+									<i class="fas fa-ring fs-hajun text-white"></i>
+								</div>
+	
+								<div class="w-100">
+									<h4 class="waypoints fs-title font-weight-bold myfont-p text-center text-white pb-3 mb-4" data-effect="fadeInLeft">
+										Akad Nikah
+									</h4>
+									<div class="mb-5 pb-5">
+										<p class="waypoints fs-base font-weight-bold mb-2 text-center text-white" data-effect="fadeInLeft">
+											Sabtu, 08 Juli 2023
+										</p>
+										<p class="waypoints fs-base font-weight-bold mb-2 text-center text-white" data-effect="fadeInLeft">
+											Pukul 09.00 - 10.00 WIB
+										</p>
+									</div>
+									<p class="waypoints fs-base font-weight-normal mb-3 text-center text-white" data-effect="fadeInLeft">
+										Jl. Permata, Gg. Pancawarna I A, RT.005/004, Desa Curug,
+										Kec. Gunung Sindur Kab. Bogor, Jawa Barat
+									</p>
+	
+									<div class="pb-5 mb-5"></div>
+	
+									<div class="waypoints d-flex justify-content-center align-items-center" data-effect="fadeInLeft">
+										<a href="#" target="_blank" class="rounded bg-white px-4 py-2 border-0 text-dark font-weight-bold">
+											Get Location
+										</a>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+
+					<div class="col-12 col-sm-12 px-0">
+						<div class="wrapping-overlay py-5 px-3 mb-4 rounded">
+							<div class="backgroundLocation2 position-relative d-flex flex-column align-items-center px-3 py-4">
+								<div class="backgroundOverlay position-absolute w-100 h-100 inset-0"></div>
+
+								<div class="waypoints d-flex align-items-center justify-content-center pb-4 my-4"  data-effect="fadeInLeft">
+									<i class="fas fa-glass-cheers fs-hajun text-white"></i>
+								</div>
+	
+								<div class="w-100">
+									<h4 class="waypoints fs-title font-weight-bold myfont-p text-center text-white pb-3 mb-4" data-effect="fadeInLeft">
+										Resepsi
+									</h4>
+									<div class="mb-5 pb-5">
+										<p class="waypoints fs-base font-weight-bold mb-2 text-center text-white" data-effect="fadeInLeft">
+											Sabtu, 08 Juli 2023
+										</p>
+										<p class="waypoints fs-base font-weight-bold mb-2 text-center text-white" data-effect="fadeInLeft">
+											Pukul 10.30 - Selesai
+										</p>
+									</div>
+									<p class="waypoints fs-base font-weight-normal mb-3 text-center text-white" data-effect="fadeInLeft">
+										Jl. Permata, Gg. Pancawarna I A, RT.005/004, Desa Curug,
+										Kec. Gunung Sindur Kab. Bogor, Jawa Barat
+									</p>
+	
+									<div class="pb-5 mb-5"></div>
+	
+									<div class="waypoints d-flex justify-content-center align-items-center" data-effect="fadeInLeft">
+										<a href="#" target="_blank" class="rounded bg-white px-4 py-2 border-0 text-dark font-weight-bold">
+											Get Location
+										</a>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="gallerySection">
+			<div class="w-100 px-4 py-4">
+				<h4 class="waypoints fs-title font-weight-bold myfont-p text-center mb-3" data-effect="fadeInDown">
+					Gallery
+				</h4>
+
+				<div class="row" id="gallery">
+					<div class="waypoints col-6 col-sm-6 mb-3" data-effect="fadeInLeft">
+						<div class="w-100 overflow-hidden rounded">
+							<img src="img/1.JPG" alt="gambar" class="w-100 object-cover">
+						</div>
+					</div>
+					<div class="waypoints col-6 col-sm-6 mb-3" data-effect="fadeInLeft">
+						<div class="w-100 overflow-hidden rounded">
+							<img src="img/2.JPG" alt="gambar" class="w-100 object-cover">
+						</div>
+					</div>
+					<div class="waypoints col-6 col-sm-6 mb-3" data-effect="fadeInLeft">
+						<div class="w-100 overflow-hidden rounded">
+							<img src="img/3.JPG" alt="gambar" class="w-100 object-cover">
+						</div>
+					</div>
+					<div class="waypoints col-6 col-sm-6 mb-3" data-effect="fadeInLeft">
+						<div class="w-100 overflow-hidden rounded">
+							<img src="img/4.JPG" alt="gambar" class="w-100 object-cover">
+						</div>
+					</div>
+					<div class="waypoints col-6 col-sm-6 mb-3" data-effect="fadeInLeft">
+						<div class="w-100 overflow-hidden rounded">
+							<img src="img/5.JPG" alt="gambar" class="w-100 object-cover">
+						</div>
+					</div>
+					<div class="waypoints col-6 col-sm-6 mb-3" data-effect="fadeInLeft">
+						<div class="w-100 overflow-hidden rounded">
+							<img src="img/6.JPG" alt="gambar" class="w-100 object-cover">
+						</div>
+					</div>
+					<div class="waypoints col-6 col-sm-6 mb-3" data-effect="fadeInLeft">
+						<div class="w-100 overflow-hidden rounded">
+							<img src="img/7.JPG" alt="gambar" class="w-100 object-cover">
+						</div>
+					</div>
+					<div class="waypoints col-6 col-sm-6 mb-3" data-effect="fadeInLeft">
+						<div class="w-100 overflow-hidden rounded">
+							<img src="img/8.JPG" alt="gambar" class="w-100 object-cover">
+						</div>
+					</div>
+					<div class="waypoints col-6 col-sm-6 mb-3" data-effect="fadeInLeft">
+						<div class="w-100 overflow-hidden rounded">
+							<img src="img/9.JPG" alt="gambar" class="w-100 object-cover">
+						</div>
+					</div>
+					<div class="waypoints col-6 col-sm-6 mb-3" data-effect="fadeInLeft">
+						<div class="w-100 overflow-hidden rounded">
+							<img src="img/10.JPG" alt="gambar" class="w-100 object-cover">
+						</div>
+					</div>
+					<div class="waypoints col-6 col-sm-6 mb-3" data-effect="fadeInLeft">
+						<div class="w-100 overflow-hidden rounded">
+							<img src="img/11.JPG" alt="gambar" class="w-100 object-cover">
+						</div>
+					</div>
+					<div class="waypoints col-6 col-sm-6 mb-3" data-effect="fadeInLeft">
+						<div class="w-100 overflow-hidden rounded">
+							<img src="img/12.JPG" alt="gambar" class="w-100 object-cover">
+						</div>
+					</div>
+					<div class="waypoints col-6 col-sm-6 mb-3" data-effect="fadeInLeft">
+						<div class="w-100 overflow-hidden rounded">
+							<img src="img/groom.JPG" alt="gambar" class="w-100 object-cover">
+						</div>
+					</div>
+					<div class="waypoints col-6 col-sm-6 mb-3" data-effect="fadeInLeft">
+						<div class="w-100 overflow-hidden rounded">
+							<img src="img/bride.JPG" alt="gambar" class="w-100 object-cover">
+						</div>
+					</div>
+					<div class="waypoints col-6 col-sm-6 mb-3" data-effect="fadeInLeft">
+						<div class="w-100 overflow-hidden rounded">
+							<img src="img/background.JPG" alt="gambar" class="w-100 object-cover">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="footer">
+			<div class="bg-gray w-100 px-4 py-4">
+				<p class="waypoints fs-base font-weight-normal myfont-k mb-5 text-center text-white" data-effect="fadeInDown">
+					Alright Reserved &copy;2023
+				</p>
+				
+				<div class="d-flex justify-content-center align-items-center">
+					<div class="waypoints col-1 col-sm-1 d-flex justify-content-center align-items-center" data-effect="fadeInLeft">
+						<a href="#" target="_blank">
+							<i class="fab fa-facebook fs-title text-white"></i>
+						</a>
+					</div>
+					<div class="waypoints col-1 col-sm-1 d-flex justify-content-center align-items-center" data-effect="fadeInLeft">
+						<a href="#" target="_blank">
+							<i class="fab fa-whatsapp fs-title text-white"></i>
+						</a>
+					</div>
+					<div class="waypoints col-1 col-sm-1 d-flex justify-content-center align-items-center" data-effect="fadeInLeft">
+						<a href="https://instagram.com/ayar.js" target="_blank">
+							<i class="fab fa-instagram fs-title text-white"></i>
+						</a>
+					</div>
+					<div class="waypoints col-1 col-sm-1 d-flex justify-content-center align-items-center" data-effect="fadeInLeft">
+						<a href="https://github.com/ahyaralfaruq" target="_blank">
+							<i class="fab fa-github fs-title text-white"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<audio id="audioAutoplay">
+		<source src="img/hmc-mgr.mp3" type="audio/mpeg">
+	</audio>
+
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.waypoints.js"></script>
+	<script type="text/javascript" src="js/all.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

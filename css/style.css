@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: "greatvibes";
+	src: url("../fonts/Great_Vibes/GreatVibes-Regular.ttf");
+}
+@font-face {
+	font-family: "karla";
+	src: url("../fonts/Karla/Karla-VariableFont_wght.ttf");
+}
+@font-face {
+	font-family: "philosopher";
+	src: url("../fonts/Philosopher/Philosopher-Regular.ttf");
+}
+.waypoints {
+	opacity: 0;
+}
+#main {
+	position: relative;
+	max-width: 576px;
+	margin: auto;
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .68);
+	overflow: hidden;
+}
+.myfont-p {
+	font-family: "philosopher";
+}
+.myfont-k {
+	font-family: "karla";
+}
+.myfont-gv {
+	font-family: "greatvibes";
+}
+.fs-hajun {
+	font-size: 2.5rem;
+}
+.fs-nama {
+	font-size: 1.8rem;
+}
+.fs-title {
+	font-size: 1.2rem;
+}
+.fs-base {
+	font-size: .7rem;
+}
+.firstModal {
+	width: -webkit-fill-available;
+	height: 0;
+	transition: all .5s ease-in-out 0s;
+}
+.firstModal.active {
+	height: 100vh;
+	z-index: 999;
+	padding: 1.5rem;
+}
+.myBackground {
+	background: url('../img/background.JPG');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 80vh;
+}
+.countdownBackground {
+	background: url('../img/bgop.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.images-wrapper {
+	width: 120px;
+	height: 120px;
+}
+.inset-0 {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.object-cover {
+	object-fit: cover;
+}
+.bg-gray {
+	background: #6b7280;
+}
+.text-gray {
+	color: #6b7280;
+}
+.backgroundOverlay {
+	background-image: linear-gradient(180deg, #000000 80%, #000000);
+	opacity: .5;
+}
+.backgroundLocation {
+	background: url('../img/2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.backgroundLocation1 {
+	background: url('../img/7.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.backgroundLocation2 {
+	background: url('../img/8.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.wrapping-overlay {
+	background-color: initial;
+	background-image: linear-gradient(180deg,rgba(232, 232, 232, .88),rgba(232, 232, 232, .88));
+}
+.button-audio {
+	display: none;
+}
+.button-audio.active {
+	display: flex;
+}
+@media (min-width: 576px){
+	.firstModal {
+		width: 576px;
+	}
+	.myBackground {	
+		height: 100vh;
+	}
+	.fs-hajun {
+		font-size: 4rem;
+	}
+	.fs-nama {
+		font-size: 2.5rem;
+	}
+	.fs-title {
+		font-size: 1.7rem;
+	}
+	.fs-base {
+		font-size: 1rem;
+	}
+	.images-wrapper {
+		width: 200px;
+		height: 200px;
+	}
+}
