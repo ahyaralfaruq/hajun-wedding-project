@@ -59,7 +59,7 @@ const timeInterval = setInterval(() => {
 	if (distance < 0) {
 		clearInterval(timeInterval)
 		document.getElementById("days").innerHTML = "00"
-		document.getElementById("hour").innerHTML = "00"
+		document.getElementById("hours").innerHTML = "00"
 		document.getElementById("minutes").innerHTML = "00"
 		document.getElementById("seconds").innerHTML = "00"
 	}
@@ -108,7 +108,10 @@ const getAudioElement = document.getElementById("onoff")
 const getAudioMusic = document.getElementById("audioAutoplay")
 const getFirstChild = getAudioElement.children[0]
 const getSecondChild = getAudioElement.children[1]
+const body = document.body
 let isPlay = false
+
+body.style.overflow = "hidden"
 
 getAudioElement.addEventListener("click", function() {
 
@@ -135,5 +138,6 @@ openLetter.addEventListener("click", function() {
 	getSecondChild.classList.remove("active")
 	modal.classList.remove("active")
 	getAudioMusic.play()
+	body.style.overflow = "visible"
 	isPlay = true
 })
