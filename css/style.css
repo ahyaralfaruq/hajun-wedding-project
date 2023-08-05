@@ -21,9 +21,16 @@
 #main {
 	position: relative;
 	max-width: 576px;
+	height: 100vh;
 	margin: auto;
 	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .68);
 	overflow: hidden;
+}
+[data-content="content-wrapper"] {
+	overflow-y: auto;
+}
+[data-content="content-wrapper"]::-webkit-scrollbar {
+	display: none;
 }
 .myfont-p {
 	font-family: "philosopher";
@@ -52,7 +59,9 @@
 	transition: all .5s ease-in-out 0s;
 }
 .firstModal.active {
-	height: 100vh;
+	position: absolute;
+	width: 100%;
+	height: 100%;
 	z-index: 999;
 	padding: 1.5rem;
 }

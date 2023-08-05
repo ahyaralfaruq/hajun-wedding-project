@@ -36,7 +36,10 @@ $('.waypoints').waypoint(function(direction) {
 
 	}
 
-}, { offset: '95%' });
+}, { 
+	offset: '95%',
+	context: '[data-content="content-wrapper"]',
+});
 
 // section countdown
 
@@ -108,7 +111,7 @@ const getAudioElement = document.getElementById("onoff")
 const getAudioMusic = document.getElementById("audioAutoplay")
 const getFirstChild = getAudioElement.children[0]
 const getSecondChild = getAudioElement.children[1]
-const body = document.body
+const body = document.querySelector('[data-content="content-wrapper"]')
 let isPlay = false
 
 body.style.overflow = "hidden"
@@ -138,6 +141,6 @@ openLetter.addEventListener("click", function() {
 	getSecondChild.classList.remove("active")
 	modal.classList.remove("active")
 	getAudioMusic.play()
-	body.style.overflow = "visible"
+	body.style.overflow = "auto"
 	isPlay = true
 })
