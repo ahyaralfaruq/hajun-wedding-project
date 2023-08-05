@@ -19,18 +19,18 @@
 <body>
 
 	<main id="main">
+		<article class="position-absolute" style="bottom: 0; right: 0; z-index: 90; cursor: pointer;">
+			<div class="d-inline-block" id="onoff">
+				<span class="button-audio rounded-circle bg-gray px-2 py-2 mr-3 mb-3">
+					<i class="fas fa-play fs-base text-white"></i>
+				</span>
+				<span class="button-audio active rounded-circle bg-gray px-2 py-2 mr-3 mb-3">
+					<i class="fas fa-pause fs-base text-white"></i>
+				</span>
+			</div>
+		</article>
 
 		<article class="w-100 h-100 position-relative" data-content="content-wrapper">
-			<div class="position-fixed" style="bottom: 0; right: 0; z-index: 90; cursor: pointer;">
-				<div class="d-inline-block" id="onoff">
-					<span class="button-audio rounded-circle bg-gray px-3 py-3 mr-3 mb-3">
-						<i class="fas fa-play fs-base text-white"></i>
-					</span>
-					<span class="button-audio active rounded-circle bg-gray px-3 py-3 mr-3 mb-3">
-						<i class="fas fa-pause fs-base text-white"></i>
-					</span>
-				</div>
-			</div>
 	
 			<section id="modalSection">
 				<div class="firstModal active backgroundLocation position-absolute inset-0">
