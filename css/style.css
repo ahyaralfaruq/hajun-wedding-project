@@ -57,7 +57,7 @@
 	padding: 1.5rem;
 }
 .myBackground {
-	background: url('../img/background.JPG');
+	background: url('../img/background.webp');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -93,19 +93,19 @@
 	opacity: .5;
 }
 .backgroundLocation {
-	background: url('../img/2.JPG');
+	background: url('../img/2.webp');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 .backgroundLocation1 {
-	background: url('../img/7.JPG');
+	background: url('../img/7.webp');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 .backgroundLocation2 {
-	background: url('../img/8.JPG');
+	background: url('../img/8.webp');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
