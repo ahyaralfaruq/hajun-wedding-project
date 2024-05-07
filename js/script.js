@@ -122,13 +122,13 @@ body.style.overflow = "hidden"
 getAudioElement.addEventListener("click", function() {
 
 	if(isPlay) {
-		getFirstChild.classList.remove("active")
-		getSecondChild.classList.add("active")
+		getFirstChild.classList.add("active")
+		getSecondChild.classList.remove("active")
 		getAudioMusic.pause()
 		isPlay = false
 	} else {
-		getFirstChild.classList.add("active")
-		getSecondChild.classList.remove("active")
+		getFirstChild.classList.remove("active")
+		getSecondChild.classList.add("active")
 		getAudioMusic.play()
 		isPlay = true
 	}
@@ -140,8 +140,8 @@ const openLetter = document.getElementById("openLetter")
 const modal = document.querySelector(".firstModal")
 
 openLetter.addEventListener("click", function() {
-	getFirstChild.classList.add("active")
-	getSecondChild.classList.remove("active")
+	getFirstChild.classList.remove("active")
+	getSecondChild.classList.add("active")
 	modal.classList.remove("active")
 	getAudioMusic.play()
 	body.style.overflow = "auto"
