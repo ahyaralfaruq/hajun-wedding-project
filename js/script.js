@@ -114,6 +114,9 @@ const getSecondChild = getAudioElement.children[1]
 const body = document.querySelector('[data-content="content-wrapper"]')
 let isPlay = false
 
+var settingAutoplay = 'yes';
+window.settingAutoplay = settingAutoplay === 'disable' ? false : true;
+
 body.style.overflow = "hidden"
 
 getAudioElement.addEventListener("click", function() {
